@@ -1899,9 +1899,9 @@ dependencies = [
 
 [[package]]
 name = "couch_rs"
-version = "0.10.1"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a7228495b638416511a9dd3b2f2e7a6ca41db238762657c457689aa7e5a4bf4"
+checksum = "c58e035c1863a37f8f8443efe9b70c5c7570903b2d4ddd5cc9d4c6b89f0670cd"
 dependencies = [
  "base64 0.22.1",
  "bytes",
@@ -1921,9 +1921,9 @@ dependencies = [
 
 [[package]]
 name = "couch_rs_derive"
-version = "0.10.1"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a6f77c7d20bb6dff367c9e790adf491a7feb9f91bbc1c34c2ea97873a2a58c7"
+checksum = "52b717810a1bab636c8249cfe37734b6d0b96ea76ff7925d2b32860b78cd0fe3"
 dependencies = [
  "proc-macro2",
  "quote",
