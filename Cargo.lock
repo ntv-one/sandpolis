@@ -727,7 +727,7 @@ dependencies = [
  "bevy_time",
  "bevy_utils",
  "const-fnv1a-hash",
- "sysinfo",
+ "sysinfo 0.30.13",
 ]
 
 [[package]]
@@ -3178,9 +3178,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.155"
+version = "0.2.165"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
+checksum = "fcb4d3d38eab6c5239a362fa8bae48c03baf980a6e7079f063942d563ef3533e"
 
 [[package]]
 name = "libgit2-sys"
@@ -4733,7 +4733,7 @@ dependencies = [
  "serde",
  "serde_bytes",
  "strum",
- "sysinfo",
+ "sysinfo 0.32.1",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -5132,8 +5132,21 @@ dependencies = [
  "libc",
  "ntapi",
  "once_cell",
- "rayon",
  "windows 0.52.0",
+]
+
+[[package]]
+name = "sysinfo"
+version = "0.32.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4c33cd241af0f2e9e3b5c32163b873b29956890b5342e6745b917ce9d490f4af"
+dependencies = [
+ "core-foundation-sys",
+ "libc",
+ "memchr",
+ "ntapi",
+ "rayon",
+ "windows 0.54.0",
 ]
 
 [[package]]
